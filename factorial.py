@@ -9,4 +9,4 @@ if num<0:
 elif num==0:
     print("factorial of 0 is 1")
 else:
-    print("factorial of",num,"is",factorial(num))
+    print(factorial(num))
