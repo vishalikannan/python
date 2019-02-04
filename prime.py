@@ -5,6 +5,6 @@ if number>1:
       print("no")
       break
   else:
-    print("prime number")
+    print("yes")
 else:
   print("no")
