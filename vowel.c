@@ -8,6 +8,6 @@ printf("Vowels");
 else if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
 printf("Consonant");
 else
-  printf("invalid")
+  printf("invalid");
 return 0;
 }
