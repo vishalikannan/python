@@ -7,6 +7,6 @@ num=int(input(1))
 if num<0:
     print()
 elif num==0:
-    print("factorial")
+    print("factorial of 0 is 1")
 else:
-    print("factorial,num,factorial(num))
+    print("factorial of",num,"is",factorial(num))
