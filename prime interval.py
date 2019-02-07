@@ -4,7 +4,7 @@ k=int(k)
 for i in range(n+1,k):
    j=0
    if i>1:
-      for i in range(2,i):
+      for s in range(2,i):
         if i%s==0:
           j=j+1
    if j<=0:
