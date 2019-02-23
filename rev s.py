@@ -4,5 +4,4 @@ def reverse(str):
         s = ch + s
     return s
 mystr = "aabbcc"
-print(mystr)
 print(reverse(mystr))
