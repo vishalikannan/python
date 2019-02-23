@@ -1,8 +1,8 @@
 def reverse(str):
-    s=""
+    s = ""
     for ch in str:
-        s=ch+s
+        s = ch + s
     return s
-mystr=""
+mystr = "aabbcc"
 print(mystr)
 print(reverse(mystr))
