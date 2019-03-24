@@ -1,9 +1,11 @@
+#vis
 import sys,string,math,itertools
 n=input()
 n=int(n)
+L=[]
 for i in range(0,n):
      s=input()
-     L.append
+     L.append(s)
 common_prefix=[]
 for i in zip(*L):
   if i.count(i[0])==len(i):
