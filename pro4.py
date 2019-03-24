@@ -1,7 +1,5 @@
 #pro4
 import sys,string
-# Function to find minimum number of operations required
-# to transform A to B
 def minOps1(A, B):
     m = len(A)
     n = len(B)
@@ -9,11 +7,11 @@ def minOps1(A, B):
          return -1
     count = [0] * 256
 
-    for i in range(n):  # count characters in A
+    for i in range(n): 
          count[ord(B[i])] += 1
-    for i in range(n):  # subtract count for every char in B
+    for i in range(n): 
          count[ord(A[i])] -= 1
-    for i in range(256):  # Check if all counts become 0
+    for i in range(256):
          if count[i]:
              return -1
     res = 0
@@ -23,7 +21,6 @@ def minOps1(A, B):
         while i >= 0 and A[i] != B[j]:
              i -= 1
              res += 1
-        # if A[i] and B[j] match
         if i >= 0:
             i -= 1
             j -= 1
