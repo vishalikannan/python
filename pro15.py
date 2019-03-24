@@ -1,3 +1,4 @@
+#pro15
 import sys, string, math
 def count_1(n) :
     s = bin(n)[2:]
