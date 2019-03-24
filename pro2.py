@@ -1,3 +1,4 @@
+
 import sys,string,math
 def reduceN(n,k):
     if k<=0:return n
@@ -6,8 +7,12 @@ def reduceN(n,k):
     p2=reduceN(n//10,k-1)
     if p1<p2:
         return p1
+    
+    
     else:
         return p2
+    
+    
 n,k=input().spilt()
 n,k=int(n),int(k)
 print(reduceN(n,k))
